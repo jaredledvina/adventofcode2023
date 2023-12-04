@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Advent of Code - Day 1
+Advent of Code - Day 2
 """
 import os
 
