@@ -144,7 +144,7 @@ def part2(puzzle_input):
                     gear_two = gears.pop()
                     current_gear_ratio = gear_one * gear_two
                     print('ratio', current_gear_ratio, 'gear_one', gear_one, 'gear_two', gear_two)
-                    gears = set()
+                gears = set()
                 gear_ratio += current_gear_ratio
                 print('total_gear_ratio:', gear_ratio)
     return gear_ratio
